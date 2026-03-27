@@ -109,7 +109,7 @@ Version of the kubectl ctx plugin release to install
 #### Default value
 
 ```YAML
-kubectl_ctx_version: 0.10.2
+kubectl_ctx_version: 0.11.0
 ```
 
 ### kubectl_download
@@ -288,7 +288,7 @@ Version of the kubectl ns plugin release to install
 #### Default value
 
 ```YAML
-kubectl_ns_version: 0.10.2
+kubectl_ns_version: 0.11.0
 ```
 
 ### kubectl_version
