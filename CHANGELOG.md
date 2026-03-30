@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.5.0](https://github.com/rolehippie/kubectl/compare/v2.4.0...v2.5.0) (2026-03-30)
+
+### Dependencies
+
+* **minor:** update dependency ahmetb/kubectx to v0.11.0 ([#49](https://github.com/rolehippie/kubectl/issues/49)) ([95d1f9b](https://github.com/rolehippie/kubectl/commit/95d1f9b08197ed80d8ab00cc524614d869a6e87d))
+* **patch:** update dependency ahmetb/kubectx to v0.10.2 ([#48](https://github.com/rolehippie/kubectl/issues/48)) ([a7b0447](https://github.com/rolehippie/kubectl/commit/a7b0447439a7702b48b574d6acf8cc0eda3ef107))
+
+### Miscellaneous
+
+* **flake:** updated lockfile [skip ci] ([c046a83](https://github.com/rolehippie/kubectl/commit/c046a83a96b34971ffebd7567a25455761114beb))
+
 ## [2.4.0](https://github.com/rolehippie/kubectl/compare/v2.3.0...v2.4.0) (2026-03-23)
 
 ### Dependencies
