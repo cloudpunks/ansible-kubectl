@@ -57,8 +57,7 @@ Architecture for the kubectl release
 #### Default value
 
 ```YAML
-kubectl_arch: "{{ 'arm64' if ansible_architecture in ['aarch64', 'arm64'] else 'amd64'
-  }}"
+kubectl_arch: "{{ 'arm64' if ansible_architecture in ['aarch64', 'arm64'] else 'amd64' }}"
 ```
 
 ### kubectl_checksum
@@ -88,8 +87,7 @@ Download URL for the kubectl ctx plugin release
 #### Default value
 
 ```YAML
-kubectl_ctx_download: https://github.com/ahmetb/kubectx/releases/download/v{{ 
-  kubectl_ctx_version }}/kubectx
+kubectl_ctx_download: https://github.com/ahmetb/kubectx/releases/download/v{{ kubectl_ctx_version }}/kubectx
 ```
 
 ### kubectl_ctx_install
@@ -119,8 +117,7 @@ Download URL for the kubectl release
 #### Default value
 
 ```YAML
-kubectl_download: https://dl.k8s.io/release/v{{ kubectl_version }}/bin/{{ 
-  ansible_system | lower }}/{{ kubectl_arch }}/kubectl
+kubectl_download: https://dl.k8s.io/release/v{{ kubectl_version }}/bin/{{ ansible_system | lower }}/{{ kubectl_arch }}/kubectl
 ```
 
 ### kubectl_extra_configs
@@ -216,8 +213,7 @@ Path to legacy keyring which got to be removed
 #### Default value
 
 ```YAML
-kubectl_keyring: /usr/share/keyrings/kubernetes-v{{ kubectl_minor_version 
-  }}-archive-keyring.gpg
+kubectl_keyring: /usr/share/keyrings/kubernetes-v{{ kubectl_minor_version }}-archive-keyring.gpg
 ```
 
 ### kubectl_legacy_keyring
@@ -235,8 +231,7 @@ Legacy repository that got to be removed
 #### Default value
 
 ```YAML
-kubectl_legacy_repo: deb [signed-by={{ kubectl_legacy_keyring }}] 
-  http://apt.kubernetes.io/ kubernetes-xenial main
+kubectl_legacy_repo: deb [signed-by={{ kubectl_legacy_keyring }}] http://apt.kubernetes.io/ kubernetes-xenial main
 ```
 
 ### kubectl_minor_version
@@ -246,8 +241,7 @@ Minor version used for repo selection
 #### Default value
 
 ```YAML
-kubectl_minor_version: "{{ (kubectl_version | string).split('.')[0] }}.{{ (kubectl_version
-  | string).split('.')[1] }}"
+kubectl_minor_version: "{{ (kubectl_version | string).split('.')[0] }}.{{ (kubectl_version | string).split('.')[1] }}"
 ```
 
 ### kubectl_ns_checksum
@@ -267,8 +261,7 @@ Download URL for the kubectl ns plugin release
 #### Default value
 
 ```YAML
-kubectl_ns_download: https://github.com/ahmetb/kubectx/releases/download/v{{ 
-  kubectl_ns_version }}/kubens
+kubectl_ns_download: https://github.com/ahmetb/kubectx/releases/download/v{{ kubectl_ns_version }}/kubens
 ```
 
 ### kubectl_ns_install
