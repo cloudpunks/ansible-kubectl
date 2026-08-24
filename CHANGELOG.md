@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.9.1](https://github.com/rolehippie/kubectl/compare/v2.9.0...v2.9.1) (2026-08-24)
+
+### Dependencies
+
+* **patch:** update dependency kubernetes/kubernetes to v1.36.4 ([#66](https://github.com/rolehippie/kubectl/issues/66)) ([3799374](https://github.com/rolehippie/kubectl/commit/3799374d79c5b9dd9fb5e818ae2e18a05e70d377))
+
 ## [2.9.0](https://github.com/rolehippie/kubectl/compare/v2.8.0...v2.9.0) (2026-08-17)
 
 ### Dependencies
