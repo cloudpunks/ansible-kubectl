@@ -291,7 +291,7 @@ Version of the kubectl release to install
 #### Default value
 
 ```YAML
-kubectl_version: 1.36.4
+kubectl_version: 1.37.0
 ```
 
 ## Discovered Tags
